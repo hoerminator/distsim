@@ -1,0 +1,157 @@
+.root {
+    -fx-font-family: "Segoe UI", "Inter", "Arial", sans-serif;
+    -fx-font-size: 12px;
+    -fx-background-color: #eef2f6;
+    -fx-text-fill: #17202a;
+}
+
+.app-root {
+    -fx-background-color: #eef2f6;
+}
+
+.main-toolbar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent transparent #d8e0e8 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 10 12;
+    -fx-spacing: 8;
+}
+
+.toolbar-label {
+    -fx-text-fill: #526170;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.button,
+.menu-button,
+.combo-box-base {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #c8d3df;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #17202a;
+    -fx-padding: 6 10;
+}
+
+.button:hover,
+.menu-button:hover,
+.combo-box-base:hover {
+    -fx-border-color: #7f94aa;
+    -fx-background-color: #f8fafc;
+}
+
+.primary-action {
+    -fx-background-color: #2563eb;
+    -fx-border-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.primary-action:hover {
+    -fx-background-color: #1d4ed8;
+    -fx-border-color: #1d4ed8;
+}
+
+.secondary-action {
+    -fx-background-color: #f8fafc;
+}
+
+.danger-action {
+    -fx-background-color: #fff1f2;
+    -fx-border-color: #fecdd3;
+    -fx-text-fill: #be123c;
+}
+
+.danger-action:hover {
+    -fx-background-color: #ffe4e6;
+    -fx-border-color: #fb7185;
+}
+
+.status-pill,
+.evaluation-summary {
+    -fx-background-radius: 999;
+    -fx-border-radius: 999;
+    -fx-border-color: #c8d3df;
+    -fx-background-color: #f8fafc;
+    -fx-padding: 5 10;
+    -fx-text-fill: #526170;
+    -fx-font-size: 11px;
+}
+
+.evaluation-summary {
+    -fx-font-family: "Consolas", "Segoe UI Mono", monospace;
+}
+
+.topology-pane,
+.side-pane {
+    -fx-background-color: #eef2f6;
+}
+
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #263340;
+}
+
+.topology-canvas {
+    -fx-background-color: #f8fafc;
+    -fx-border-color: #d8e0e8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d8e0e8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 2;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 4 6;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #f1f5f9;
+}
+
+.message-payload {
+    -fx-font-weight: bold;
+    -fx-text-fill: #17202a;
+}
+
+.message-route {
+    -fx-font-family: "Consolas", "Segoe UI Mono", monospace;
+    -fx-font-size: 11px;
+    -fx-text-fill: #526170;
+}
+
+.context-menu {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #d8e0e8;
+    -fx-border-radius: 8;
+    -fx-padding: 6;
+}
+
+.evaluation-window {
+    -fx-background-color: #ffffff;
+}
+
+.evaluation-section-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: #263340;
+}
+
+.evaluation-key {
+    -fx-font-weight: bold;
+    -fx-text-fill: #526170;
+}
+
+.export-feedback {
+    -fx-text-fill: #0f766e;
+    -fx-font-size: 11px;
+}
